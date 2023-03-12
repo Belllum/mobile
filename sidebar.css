@@ -1,0 +1,29 @@
+.social-icons{
+    text-decoration: none;
+    position: fixed;
+    left: 1020px;
+    top: 50%;
+}
+
+.social-icons ul li{
+    margin-top: 5px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.social-icons ul li span{
+    height: 50px;
+    color: #ee7f2a;
+    padding: 10px;
+    display: block;
+    font-size: 30px;
+}
+
+.social-icons ul li span:hover{
+    transition: 0.4s;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    color: rgb(0, 0, 0)
+}
